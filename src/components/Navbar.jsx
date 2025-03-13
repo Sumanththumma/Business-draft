@@ -2,7 +2,7 @@ import React from 'react'
 import Logonav from '../assets/navassets/logonav'
 const Navbar = () => {
   return (
-    <div className='flex justify-between md:px-10 md:py-4'>
+    <div className='flex justify-between md:px-10 md:py-4  w-full items-center z-10 absolute'>
        <Logonav />
        <ul className='font-Poppins flex md:gap-5' id='navlinks'>
             <li>Learn more</li>
